@@ -1,0 +1,68 @@
+body{
+    padding:0;
+    margin: 0;
+}
+/*
+    Style for header-section
+*/
+.header-section{
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 0 8px;
+}
+.header-section > ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+.header-section > ul > .logo{
+    font-size: 38px;
+    font-family: monospace;
+}
+.header-section > ul > .logo > span > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*
+    Style for sidebar-section
+*/
+.sidebar-section{
+    font-size: 15px;
+    font-family: 'Segoe UI', Arial, sans-serif;;
+    text-decoration: none;
+    background-color: #F1F1F1;
+    height: 100%;
+    color: #2D3E50;
+}
+.sidebar-section > ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+.sidebar-section > ul > li{
+    cursor: pointer;
+}
+.sidebar-section > ul > li > a {
+    text-decoration: none;
+    color: #2D3E50;
+}
+.sidebar-section > ul > li > a > div{
+    padding: 7px 7px;
+}
+.sidebar-section > ul > li > a > div:hover{
+    background-color: #dddddd;
+    color: #000000;
+}
+.active-sidebar-link{
+    background-color: #dddddd;
+    color: #000000;
+}
+
+/*Style for footer section*/
+#su-footer{
+    background-color: #2D3E50;
+    color: #fff;
+    text-align: center;
+}
